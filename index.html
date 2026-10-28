@@ -12,7 +12,6 @@
         .accent-blue { color: #61CBFF; }
         .bg-custom-red { background-color: #E95354; }
         .bg-custom-blue { background-color: #61CBFF; }
-        .border-custom-red { border-color: #E95354; }
     </style>
 </head>
 <body class="bg-[#252525] text-white">
@@ -51,12 +50,12 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Product 1 -->
             <div class="bg-[#1f1f1f] rounded-2xl overflow-hidden border border-gray-800 hover:border-[#61CBFF] transition group">
-                <div class="h-64 bg-gradient-to-tr from-gray-900 to-gray-800 flex items-center justify-center relative overflow-hidden">
-                    <span class="absolute top-3 right-3 bg-custom-red text-xs px-3 py-1 rounded-full font-bold">الأكثر مبيعاً</span>
-                    <p class="text-gray-400 font-semibold"><img src="[https://i.postimg.cc/RZHyBxYd/photo-2026-10-28-13-37-03.jpg]" alt="Iconic Space Product" class="w-full h-full object-cover"></p>
+                <div class="h-64 bg-gray-900 flex items-center justify-center relative overflow-hidden">
+                    <span class="absolute top-3 right-3 z-10 bg-custom-red text-xs px-3 py-1 rounded-full font-bold">الأكثر مبيعاً</span>
+                    <img src="https://i.postimg.cc/RZHyBxYd/photo-2026-10-28-13-37-03.jpg" alt="Iconic Space Product 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-bold mb-2">لوحة أنيمي (Plexiglass HD)</h3>
+                    <h3 class="text-xl font-bold mb-2">لوحة أنيمي و جيمينغ (Plexiglass HD)</h3>
                     <p class="text-gray-400 text-sm mb-4">جودة عالية، لمعان بريميوم، مقاوم للغبار.</p>
                     <div class="flex justify-between items-center">
                         <span class="text-xl font-black accent-blue">متوفر بأحجام مختلفة</span>
@@ -67,9 +66,9 @@
 
             <!-- Product 2 -->
             <div class="bg-[#1f1f1f] rounded-2xl overflow-hidden border border-gray-800 hover:border-[#61CBFF] transition group">
-                <div class="h-64 bg-gradient-to-tr from-gray-900 to-gray-800 flex items-center justify-center relative overflow-hidden">
-                    <span class="absolute top-3 right-3 bg-custom-blue text-xs text-black px-3 py-1 rounded-full font-bold">Gaming Setup</span>
-                    <p class="text-gray-400 font-semibold">[https://i.postimg.cc/J7s9qXQ6/photo-2026-10-28-13-37-07.jpg]</p>
+                <div class="h-64 bg-gray-900 flex items-center justify-center relative overflow-hidden">
+                    <span class="absolute top-3 right-3 z-10 bg-custom-blue text-xs text-black px-3 py-1 rounded-full font-bold">Gaming Setup</span>
+                    <img src="https://i.postimg.cc/J7s9qXQ6/photo-2026-10-28-13-37-07.jpg" alt="Iconic Space Product 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-2">لوحة الجيمينغ والسينما</h3>
@@ -83,9 +82,9 @@
 
             <!-- Product 3 -->
             <div class="bg-[#1f1f1f] rounded-2xl overflow-hidden border border-gray-800 hover:border-[#61CBFF] transition group">
-                <div class="h-64 bg-gradient-to-tr from-gray-900 to-gray-800 flex items-center justify-center relative overflow-hidden">
-                    <span class="absolute top-3 right-3 bg-purple-600 text-xs px-3 py-1 rounded-full font-bold">Special Edition</span>
-                    <p class="text-gray-400 font-semibold">[https://i.postimg.cc/MGr9MsgK/photo-2026-10-28-13-41-15.jpg]</p>
+                <div class="h-64 bg-gray-900 flex items-center justify-center relative overflow-hidden">
+                    <span class="absolute top-3 right-3 z-10 bg-purple-600 text-xs px-3 py-1 rounded-full font-bold">Special Edition</span>
+                    <img src="https://i.postimg.cc/MGr9MsgK/photo-2026-10-28-13-41-15.jpg" alt="Iconic Space Product 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-2">لوحات أساطير كرة القدم والرياضة</h3>
@@ -101,7 +100,9 @@
 
     <!-- Why Iconic Space -->
     <section class="py-12 px-4 bg-[#1e1e1e] my-12 border-y border-gray-800">
-         علاش تختار <span class="accent-red">Iconic Space</span>؟ 
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-2xl font-black mb-2">علاش تختار <span class="accent-red">Iconic Space</span>؟</h3>
+        </div>
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-8">
             <div class="p-4">
                 <div class="text-4xl mb-3">💎</div>
@@ -111,20 +112,9 @@
             <div class="p-4">
                 <div class="text-4xl mb-3">🇲🇦</div>
                 <h4 class="font-bold text-lg mb-2">توصيل لجميع المدن</h4>
-                <p class="text-gray-400 text-sm">التوصيل سرعي لجميع المدن المغربية حتى الدار.</p>
+                <p class="text-gray-400 text-sm">التوصيل سريع لجميع المدن المغربية حتى الدار.</p>
             </div>
             <div class="p-4">
                 <div class="text-4xl mb-3">🤝</div>
                 <h4 class="font-bold text-lg mb-2">خدمة الزبناء</h4>
-                <p class="text-gray-400 text-sm">تواصل معنا فـ واتساب أو الخاص لأي تصميم بغيتي.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="py-8 text-center border-t border-gray-800 text-gray-400 text-sm">
-        <p>© 2026 Iconic Space. All rights reserved. | Don't just fill a wall. Define a space.</p>
-    </footer>
-
-</body>
-</html>
+                <p class="text-gray-400 text-sm">تواصل معنا فـ واتساب أو الخاص لأي تصميم
